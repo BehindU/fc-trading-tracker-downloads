@@ -20,6 +20,7 @@ The best setup is to keep the desktop app running and the EA Web App open with t
 - Daily transfer-profit history and profit breakdowns by category and card type.
 - Player statistics, repeat sales, inventory and relists.
 - Confirmed browser pack openings, contents, ratings, rarity and available Holo information.
+- Player picks by EA-provided type (such as 83+), offered options and confirmed chosen players, with separate performance statistics.
 - Optional OP-list matching through your own Levelled Up Gaming membership.
 
 Unknown purchase costs stay unknown rather than producing made-up profit. Cards categorized as Rewards or SBCs use zero purchase cost. EA leaderboard transfer profit is a separate measure from calculated sales profit. Sale dates reflect when the collector first observes a completed sale; late observation can put it on a later day.

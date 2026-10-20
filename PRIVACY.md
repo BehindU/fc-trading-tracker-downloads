@@ -12,7 +12,7 @@ The browser collector sends records to the desktop app through **127.0.0.1:17843
 
 | Data | Where it is kept |
 | --- | --- |
-| Sales, purchase costs, inventory, category choices and pack history | Your Windows user profile, normally `%APPDATA%\FC Trading Journal`. |
+| Sales, purchase costs, inventory, category choices, pack history and player-pick options/selections | Your Windows user profile, normally `%APPDATA%\FC Trading Journal`. |
 | Browser observations and records waiting to sync | The EA Web App’s local browser storage and Tampermonkey’s local script storage in the browser profile you use. |
 | Browser pairing | A local token in Tampermonkey; a hashed token in the desktop app’s local profile. |
 | EA sign-in session in the app | The app’s local EA browser profile; saved session-cookie copies use Windows-backed encryption when available. |
@@ -56,4 +56,4 @@ If you save a backup into a cloud-synced folder, enable an external browser/prof
 
 There is no developer-hosted journal copy to retrieve if you lose your local data and backups.
 
-Documentation checked against version 0.8.2 on 20 October 2026.
+Documentation checked against version 0.8.3 on 20 October 2026.

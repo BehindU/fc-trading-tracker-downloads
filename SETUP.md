@@ -76,6 +76,7 @@ The script tries to send new records about every **10 seconds**. Some EA reads r
 3. On your next normal purchase in this browser, let EA confirm it. Keep the script running when you list and sell that card too.
 4. In the tracker, select the correct **Club** and check **Sales** or **Players** for the recorded card and purchase cost.
 5. On your next normal pack opening in this browser, check **Packs** for the opening and its contents.
+6. For player picks, install collector **0.8.3 or later**, open the pick in the browser and confirm your choice normally. In **Packs**, choose **Opening type → Player picks only**. The **Player picks** table groups them by EA’s name/description, such as 83+. Expand history to see offered options and chosen players. Only confirmed chosen players count in pick statistics; ordinary pack statistics stay separate. Multi-player selections are supported. If the collector did not see the type or final selection, it shows unknown/not recorded rather than guessing.
 
 There is no need to spend coins or open a paid pack just to test setup. Existing information may appear first; new purchase-price and pack records start from what the collector observes after installation.
 
@@ -110,7 +111,7 @@ Available linked lists refresh hourly while the app runs. If sign-in expires or 
 - **Unknown purchase cost** means the app lacks reliable evidence. Enter a known cost manually in **Players → Sale details & card confirmation** if needed. Do not guess. Rewards and SBC categories use zero cost.
 - Profit after tax is the sale price minus the estimated 5% fee and purchase cost. EA leaderboard transfer profit is different and may not equal the sum of tracked sales profits.
 - Dates use your device’s local time. A sale’s date is when it is first observed as sold, not the date it was bought. If collection was offline overnight, an older sale may be recorded on the day it is next seen.
-- Pack history starts with confirmed openings observed by the collector. Past or console openings, previews and failed openings are not reconstructed. Unknown card details remain unknown.
+- Pack history starts with confirmed openings observed by the collector. Past or console openings, previews and failed openings are not reconstructed. Player-pick options are not acquired cards; only confirmed selections count in the separate pick statistics. Unknown card details remain unknown.
 - The optional **Holo only** market switch filters the current page of EA search results. It does not search the entire market for Holos. An empty filtered page does not mean none exist; other result pages may contain them.
 - New users have no category cutoff by default. **Category fresh start** is optional and personal to the selected club. Leave it alone unless you want to exclude older cards from category review.
 

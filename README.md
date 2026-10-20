@@ -32,7 +32,9 @@ EA still receives normal EA activity. GitHub serves downloads and updates. Optio
 
 ## Updating
 
-The app checks for updates when it starts. You can also use **Data & settings → App updates → Check for updates**. When the download finishes, choose **Restart to update**. Do not uninstall first; your local history and settings are retained.
+Updates are completely optional in version 0.8.2 and later. Open **Data & settings → App updates → Check for updates**. Checking does not download an installer. If a version is available, choose **Download update** only if you want it. After downloading, choose **Restart to update** when ready. There are no startup or scheduled update checks, automatic installer downloads, or installations when you close the app. You may ignore an available update and keep using your current version. Do not uninstall first; your local history and settings are retained.
+
+Install 0.8.2 once to adopt this behavior. Older versions keep their previous update behavior until updated.
 
 The browser collector is a separate component. Keep it up to date in Tampermonkey too. The [setup guide](SETUP.md#updating-the-app-and-script) explains both.
 

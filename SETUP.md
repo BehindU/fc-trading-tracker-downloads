@@ -116,9 +116,13 @@ Available linked lists refresh hourly while the app runs. If sign-in expires or 
 
 ## Updating the app and script
 
-**Desktop app:** it checks at startup. For a manual check, open **Data & settings → App updates → Check for updates**. Let the update finish downloading, then choose **Restart to update**. Do not uninstall first. Local history and settings are retained; keeping a backup is still sensible.
+**Desktop app (0.8.2 and later):** open **Data & settings → App updates → Check for updates** when you want to look for a new version. Checking does not download an installer. If a version is available, click **Download update** only if you want it. When the download finishes, click **Restart to update** when ready. Each step is your choice. You can ignore an available version and keep using the app. Nothing checks at startup, downloads automatically or installs when you close the app. Do not uninstall first. Local history and settings are retained; keeping a backup is still sensible.
 
-**Browser script:** Tampermonkey can check for collector updates. Make sure the installed script is current too; updating the app alone does not replace the script in your browser. If necessary, use **Save browser collector** in the updated app and import it again through Tampermonkey. Accept the update to the existing script, avoid duplicate enabled copies, and reload the EA Web App. Pairing normally stays intact.
+Install 0.8.2 once to get this behavior; older versions keep their previous update behavior until updated.
+
+**Browser script:** version 0.8.2 and later disables automatic collector update checks. If you choose to update it, use **Save browser collector** in the updated desktop app and import the file again through Tampermonkey. Accept the update to the existing script, avoid duplicate enabled copies, and reload the EA Web App. Pairing normally stays intact. Updating the desktop app alone does not replace your installed browser script.
+
+If you still have an older script, its previous Tampermonkey update settings can apply until you replace it. To prevent updates before then, open that script’s **Settings** in Tampermonkey and turn off **Check for updates** for that script; the wording can vary. This changes only the collector, not Tampermonkey or your browser itself.
 
 ## Back up or move your history
 

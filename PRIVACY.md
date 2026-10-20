@@ -33,7 +33,7 @@ Do not interpret this as saying that Discord or the OP website receives no data:
 “Local journal storage” does not mean the software never uses the internet:
 
 - **EA:** the official Web App signs in and communicates with EA normally. EA already handles your account and gameplay data. Optional saved EA credentials are used only to fill EA’s official login page; they are not sent to the developer or included in trading sync or backups.
-- **GitHub and its download infrastructure:** installer downloads, app update checks/downloads and Tampermonkey’s collector update checks use GitHub. Journal records are not attached to those requests. GitHub can receive ordinary connection information, such as your IP address, under its own policies.
+- **GitHub and its download infrastructure:** installer downloads and manually requested app update checks/downloads use GitHub. Collectors before 0.8.2 can also use GitHub for Tampermonkey update checks; the 0.8.2 collector disables automatic update checks. Journal records are not attached to those requests. GitHub can receive ordinary connection information, such as your IP address, under its own policies.
 - **Levelled Up Gaming and Discord:** optional OP-list access and sign-in communicate with those services. The tracker does not upload your journal with OP-list requests.
 - **Your browser and extensions:** Tampermonkey and the browser are separate products with their own settings and privacy policies.
 
@@ -56,4 +56,4 @@ If you save a backup into a cloud-synced folder, enable an external browser/prof
 
 There is no developer-hosted journal copy to retrieve if you lose your local data and backups.
 
-Documentation checked against version 0.8.1 on 20 October 2026.
+Documentation checked against version 0.8.2 on 20 October 2026.

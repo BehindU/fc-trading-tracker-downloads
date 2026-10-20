@@ -65,7 +65,7 @@ Pairing simply gives the script permission to send records to the app on your ow
 7. If Tampermonkey asks whether the script may connect to **127.0.0.1**, allow that connection. This address means **your own PC**, not an internet server. No router setup or port forwarding is needed.
 8. Wait a short while. The Journal button should show **Connected**, and the desktop app’s **Browser purchases** section should show a paired browser and a **Last saved** time after the first successful sync.
 
-The script tries to send new records about every **10 seconds**. Some EA reads run less frequently, so not every statistic changes immediately. You normally pair once per browser profile; you do not need a fresh code every day. If the code expires, create a new one and repeat the pairing steps.
+The script tries to send new records about every **10 seconds**. EA transfer-list, targets and unassigned reads normally run every five minutes. In version 0.8.4 and later, EA transfer-profit leaderboard reads run on connection and then at most once per hour per collector session. Separate desktop/browser sessions have separate schedules. These are data reads, not software update checks; not every statistic changes immediately. You normally pair once per browser profile; you do not need a fresh code every day. If the code expires, create a new one and repeat the pairing steps.
 
 **The tracker’s separate Connect EA status is for its built-in EA window.** It can say the collector is stopped even when your paired Firefox browser is syncing successfully. For browser setup, check **Browser purchases → Last saved** and the browser’s **Journal** button.
 

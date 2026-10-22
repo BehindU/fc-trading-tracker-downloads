@@ -100,7 +100,7 @@ You can track sales without OP-list access. Automatic OP matching needs access t
 
 Logging into the website in Firefox does not automatically sign the tracker’s separate website window in. Discord handles its own login; the tracker does not read or save your Discord password. Website session cookies stay in the app’s local profile to keep refreshes signed in. They are not uploaded to the developer or GitHub.
 
-Available linked lists refresh hourly while the app runs. If sign-in expires or the website is unavailable, the previous saved list is retained. A card must match the name, rating and version; being absent from the current lists can leave it **Uncategorized**. In **Sales**, use the category selector to choose **OP**, **Rewards**, **Investments** or **SBCs** manually when needed. Manual choices are preserved.
+Available linked lists refresh hourly while the app runs. If sign-in expires or the website is unavailable, the previous saved list is retained. A card must match the name, rating and version; being absent from the current lists can leave it **Uncategorized**. In **Sales**, use the category selector to choose **OP**, **Rewards**, **Investments**, **SBCs** or **Flip** manually when needed. Manual choices are preserved.
 
 ## Everyday use and limits
 
@@ -151,3 +151,7 @@ Backups include trading records and pack history, not saved EA passwords, login 
 | Statistics differ from EA | Check missing purchase costs, the selected dates, category cutoff and whether you are comparing sales profit with EA leaderboard transfer profit. |
 
 Still stuck? Open an [issue](https://github.com/BehindU/fc-trading-tracker-downloads/issues) with your app version, browser, collector version and the exact error text. Do not attach passwords, pairing codes, tokens, cookies or a full journal backup.
+
+## Flip category
+
+Choose **Flip** for cards bought cheaply with the aim of selling quickly during a price peak. In **Sales**, use the card’s category menu; you can also assign it to unsold cards in **Categories**. Flip is chosen manually and appears in profit-by-category charts, filters and daily breakdowns. Profit still deducts the recorded purchase cost and EA’s estimated 5% fee; a missing purchase cost stays unknown. OP-list refreshes and browser syncing preserve your manual choice. Available in desktop version 0.8.5 and later; this category does not require a browser script update.

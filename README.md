@@ -51,3 +51,7 @@ This is an unsigned preview. Windows may display a publisher warning. Only use d
 If something is wrong, start with [Troubleshooting](SETUP.md#troubleshooting). You can report problems in [Issues](https://github.com/BehindU/fc-trading-tracker-downloads/issues), but never post passwords, pairing codes, cookies, tokens or full journal backups. Crop or blur personal information in screenshots.
 
 This public repository contains downloads, update files and user documentation. The development source repository is private. A new installation starts with no personal trading history; **Explore demo** shows fictional examples only.
+
+## Flip category
+
+Choose **Flip** for cards bought cheaply with the aim of selling quickly during a price peak. In **Sales**, use the card’s category menu; you can also assign it to unsold cards in **Categories**. Flip is chosen manually and appears in profit-by-category charts, filters and daily breakdowns. Profit still deducts the recorded purchase cost and EA’s estimated 5% fee; a missing purchase cost stays unknown. OP-list refreshes and browser syncing preserve your manual choice. Available in desktop version 0.8.5 and later; this category does not require a browser script update.

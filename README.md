@@ -37,7 +37,7 @@ Updates are completely optional in version 0.8.2 and later. Open **Data & settin
 
 Install 0.8.2 once to adopt this behavior. Older versions keep their previous update behavior until updated.
 
-The browser collector is a separate component. Keep it up to date in Tampermonkey too. The [setup guide](SETUP.md#updating-the-app-and-script) explains both.
+The browser collector is a separate component. To update it, save the new collector in the desktop app and import it into Tampermonkey; it does not check for or install updates automatically. The [setup guide](SETUP.md#updating-the-app-and-script) explains both.
 
 ## Requirements and support
 

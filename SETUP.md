@@ -61,7 +61,7 @@ Pairing simply gives the script permission to send records to the app on your ow
 3. Copy the entire code shown there. It expires after **5 minutes**. Keep it private.
 4. In Firefox, open the [official EA FC Web App](https://www.ea.com/ea-sports-fc/ultimate-team/web-app/), sign in to EA, and enter Ultimate Team.
 5. Reload the Web App after installing the script.
-6. Look for the **Journal** button at the bottom-right of the EA page. Click it, paste the pairing code and confirm. You can also open Tampermonkey’s menu on the EA page and choose **Pair with desktop**.
+6. Look for the small **Journal** button near the top centre of the EA page. Click it, paste the pairing code and confirm. Longer status messages are available when you point at the button. You can also open Tampermonkey’s menu on the EA page and choose **Pair with desktop**.
 7. If Tampermonkey asks whether the script may connect to **127.0.0.1**, allow that connection. This address means **your own PC**, not an internet server. No router setup or port forwarding is needed.
 8. Wait a short while. The Journal button should show **Connected**, and the desktop app’s **Browser purchases** section should show a paired browser and a **Last saved** time after the first successful sync.
 
